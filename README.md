@@ -23,3 +23,5 @@ UI is either painted red or green or neutral. The UI is controlled by states of 
 
 In order to run the application, you need to get your own free API Key from Finnhub Stock API,
 and paste it into the variable apiKey in the file: lib/services/stock_api_client.dart
+
+![ui_bull_state_stock](/ui_bull_state_stock.png)
