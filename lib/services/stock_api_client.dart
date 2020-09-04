@@ -46,11 +46,3 @@ class StockApiClient {
 //pc: 1079.81,
 //t: 1593637402
 //}
-//
-//{
-//title: "Copenhagen",
-//location_type: "City",
-//woeid: 554890,
-//latt_long: "55.676311,12.569350",
-//timezone: "Europe/Copenhagen"
-//}
