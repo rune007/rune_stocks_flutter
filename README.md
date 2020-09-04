@@ -21,6 +21,8 @@ ThemeBloc
  - This bloc controls the appeareance of the UI, based on the stocks previous price and the stocks current price, the 
 UI is either painted red or green or neutral. The UI is controlled by states of theme.
 
+To manage state the app uses BlocProvider and Streams.
+
 In order to run the application, you need to get your own free API Key from Finnhub Stock API,
 and paste it into the variable apiKey in the file: lib/services/stock_api_client.dart
 
