@@ -13,7 +13,7 @@ The application gets its data from Finnhub Stock API - https://finnhub.io/
 The application is controlled by 2 blocs:
 
 StockInfoBloc
-This bloc is responsible for controlling requests in the form of StockInfoEvents from the UI, requering data on
+This bloc is responsible for controlling requests in the form of StockInfoEvents from the UI, requiring data on
 various stock ticker symbols. The bloc responds in the form of StockInfoStates, which in turn is picked up by
 the UI.
 
