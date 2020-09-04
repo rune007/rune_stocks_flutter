@@ -13,12 +13,12 @@ The application gets its data from Finnhub Stock API - https://finnhub.io/
 The application is controlled by 2 blocs:
 
 StockInfoBloc
-This bloc is responsible for controlling requests in the form of StockInfoEvents from the UI, requiring data on
+ - This bloc is responsible for controlling requests in the form of StockInfoEvents from the UI, requiring data on
 various stock ticker symbols. The bloc responds in the form of StockInfoStates, which in turn is picked up by
 the UI.
 
 ThemeBloc
-This bloc controls the appeareance of the UI, based on the stocks previous price and the stocks current price, the 
+ - This bloc controls the appeareance of the UI, based on the stocks previous price and the stocks current price, the 
 UI is either painted red or green or neutral. The UI is controlled by states of theme.
 
 In order to run the application, you need to get your own free API Key from Finnhub Stock API,
