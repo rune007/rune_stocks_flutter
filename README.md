@@ -26,6 +26,10 @@ To manage state the app uses BlocProvider and Streams.
 In order to run the application, you need to get your own free API Key from Finnhub Stock API,
 and paste it into the variable apiKey in the file: lib/services/stock_api_client.dart
 
+Some of the packages that the app is using are slightly outdated.
+The app will need to be refactored if you update the packages.
+But if you do not update the packages, you can run the app.
+
 ![ui_bull_state_stock](/screen_shots/ui_bull_state_stock.png)
 ![ui_bear_state_stock](/screen_shots/ui_bear_state_stock.png)
 ![look_up_stock_symbol](/screen_shots/look_up_stock_symbol.png)
