@@ -4,7 +4,7 @@ Flutter application consuming Finnhub Stock API, allowing you to look up stock p
 The application allows the user to type in a stock symbol, and retrieve the current stock price from an API.
 If the stock price is larger than the previous trading day, the UI is collored green and the image of a bull
 is displayed in the UI.
-If the stock price is less than the previous trading day, the UI is collered red and the image of a bear
+If the stock price is less than the previous trading day, the UI is collored red and the image of a bear
 is displayed in the UI.
 In case of that the stock price hasn't moved the UI is collored grey, and an image of a balance is shown.
 
