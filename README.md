@@ -1,7 +1,7 @@
 # rune_stocks_flutter
 Flutter application consuming Finnhub Stock API, allowing you to look up stock prices.
 
-Simple app demonstrating the use of the BLoC design pattern.To manage state the app uses BlocProvider and Streams. Some of the packages that the app is using are slightly outdated. The app will need to be refactored if you update the packages. But if you do not update the packages, you can run the app.
+Simple app demonstrating the use of the BLoC design pattern. To manage state the app uses BlocProvider and Streams. Some of the packages that the app is using are slightly outdated. The app will need to be refactored if you update the packages. But if you do not update the packages, you can run the app.
 
 In order to run the application, you need to get your own free API Key from Finnhub Stock API, and paste it into the variable apiKey in the file: lib/services/stock_api_client.dart
 
